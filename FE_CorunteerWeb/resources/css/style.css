@@ -9,4 +9,68 @@ html{
     font-size: 20px;
     background-color: palegoldenrod;
     text-rendering: optimizeLegibility;
+    
+}
+
+header{
+    background-image: url(../img/Header/BackGround.png);
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    background-attachment: fixed;
+}
+.row{
+    float: right;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+
+.logo{
+    width: 250px;
+    float: left;
+}
+
+.links{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #2765b5;
+    font-weight: 800;
+}
+
+.links li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.links li a:hover,
+.links li a:active{
+    border-bottom: 2px solid #2765b5;
+}
+
+h1{
+    background-color: #2765b5;
+    border: #2765b5;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    display: inline;
+    color: #f8fbf9;
+}
+
+h2{
+    color: #2765b5;
+    
 }
