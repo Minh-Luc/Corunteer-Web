@@ -10,8 +10,8 @@ html{
     background-color: palegoldenrod;
     text-rendering: optimizeLegibility;
     background-image: url(../img/LandingPage_Frame/LandingPage_BackGround_Full.png);
-    margin: 0 auto;
-}
+    margin: 0 auto; 
+} 
 
 header{
     background-image: url(../img/Header/BackGround.png);
@@ -88,8 +88,11 @@ header{
     width: 50%;
     position: relative;
 }
+.activity{
+    padding-top: 10px;
+}
 .row1{
-    margin: 0 auto;
+    margin-bottom: 100px;
 }
 .line{
     width: 100%;
@@ -104,3 +107,26 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
 } */
+
+/*-----------------PRODUCT-------------------*/
+
+.product-picture{
+    padding-top: 100px;
+}
+.product-picture img{
+    width: 100%;
+}
+
+/*-----------------CONTACT-------------------*/
+
+.twoline{
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: -630px;
+    display: inline-block;
+}
+.contact-picture img{
+    width: 200%;
+    display: inline-block;
+    /* background-image: url(../img/2Line.png); */
+}
